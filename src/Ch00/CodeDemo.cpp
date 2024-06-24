@@ -5,7 +5,7 @@
 #include <iostream>
 
 int main(){
-    float num_1, num_2, result;
+    float num_1, num_2, num_3, result;
 
     std::cout << "Enter number 1: " << std::flush;
     std::cin >> num_1;
@@ -13,7 +13,10 @@ int main(){
     std::cout << "Enter number 2: " << std::flush;
     std::cin >> num_2;
     
-    result = num_1 + num_2;
+    std::cout << "Enter the third number: " << std::flush;
+    std::cin >> num_3;
+
+    result = num_1 + num_2 + num_3;
     
     std::cout << "The result of the addition is " << result << std::endl;
     
